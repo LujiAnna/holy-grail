@@ -3,30 +3,70 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CSS Layout - Holy Grail</title>
+  <title>Grid Layout - Holy Grail</title>
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/grid.css">
-<!--  TODO:  do some googling to figure out how to use flexbox and grid to create the Holy Grail layout.-->
+<!--  2.TODO:  do some googling to figure out how to use flexbox and grid to create the Holy Grail layout.-->
 </head>
 <body>
 <header>
   <!-- Place a title here -->
+
+  <h1>CSS Layouts</h1>
 </header>
 
+<div class="grid">
 <nav>
   <!-- Place a list of links here -->
+  <a href="index.html">Layouts</a>
+  <a href="flexbox.html">Flexbox</a>
+  <a href="#">Grid</a>
+  <a href="floats.html">Floats</a>
 </nav>
 
 <main>
   <!-- Place a long text here -->
+  <h2>Grid Layout</h2>
+  <p>CSS has always been used to lay out our web pages, but it’s never done a very good job of it. First, we used tables, then floats, positioning and inline-block, but all of these methods were essentially hacks and left out a lot of important functionality (vertical centering, for instance). Flexbox helped out, but it’s intended for simpler one-dimensional layouts, not complex two-dimensional ones (Flexbox and Grid actually work very well together</p>
+  <article>
+    <h3>Flexbox </h3>
+    <ul>For Flexibility (<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox">Read More >>></a>)
+      <li>Vertically centering a block of content inside its parent.</li>
+      <li>Making all the children of a container take up an equal amount of the available width/height, regardless of how much width/height is available.</li>
+      <li>Making all columns in a multiple-column layout adopt the same height even if they contain a different amount of content.</li>
+    </ul>
+  </article>
+
+  <article>
+    <h3>Grid </h3>
+    <ul>For Flexibility (<a href="https://css-tricks.com/snippets/css/complete-guide-grid/">Read More >>></a>)
+      <li>Vertically centering a block of content inside its parent for 2D-grid.</li>
+    </ul>
+  </article>
+
+  <article>
+    <h3>Floats </h3>
+    <ul>For Flexibility (<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox">Read More >>></a>)
+      <li>Vertically centering a block of content inside its parent.</li>
+      <li>Making all the children of a container take up an equal amount of the available width/height, regardless of how much width/height is available.</li>
+      <li>Making all columns in a multiple-column layout adopt the same height even if they contain a different amount of content.</li>
+    </ul>
+  </article>
+
 </main>
 
-<aside>
-  <!-- Place a small image here -->
-</aside>
+  <aside>
+    <!-- Place a small image here -->
+
+    <img src="./img/flexgrid.png" alt="" width="100%">
+    <img src="./img/breakpoints.png" alt="" width="100%">
+  </aside>
+</div>
 
 <footer>
   <!-- Place a copyright notice here -->
+
+  <p>2021 &copy; All Rights NOT reserved.</p>
 </footer>
 </body>
 </html>

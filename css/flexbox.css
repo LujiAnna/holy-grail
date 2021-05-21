@@ -1,0 +1,71 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #ccc;
+}
+
+header, footer {
+  background: purple;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+}
+
+article:first-of-type {
+  background: aqua;
+
+}
+
+/* Add your flexbox CSS below here */
+
+.flex {
+  display: flex;
+  /*flex-wrap: wrap;*/
+}
+
+/*nav, main, aside {*/
+/*  flex: 200px;*/
+/*}*/
+
+nav, aside {
+  flex: 1 200px;
+}
+
+main {
+  flex: 2 200px;
+}
+
+nav {
+  display: flex;
+  /*center vertically*/
+  /*align-items: center;*/
+  justify-content: space-around;
+}
+
+/* Add media query here for tablets*/
+/*43em (688px), 62em (992px), and 82em (1312px)*/
+@media (max-width: 900px) {
+  .flex {
+    flex-direction: column;
+  }
+}

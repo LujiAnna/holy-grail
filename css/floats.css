@@ -31,24 +31,13 @@ article {
   margin: 10px;
 }
 
-article:nth-of-type(2) {
+article:nth-of-type(3) {
   background: aqua;
 
 }
 
-/* Add your grid CSS below here */
+/* Add your floats CSS below here */
 
-.grid {
-display:grid;
-  grid-template-columns: 200px auto 200px;
-  justify-items: center;
-}
 
 /* Add media query here for tablets*/
 /*43em (688px), 62em (992px), and 82em (1312px)*/
-@media (max-width: 900px) {
-  .grid {
-    grid-template-columns: 100%;
-    grid-template-rows: 100px auto auto;
-  }
-}
